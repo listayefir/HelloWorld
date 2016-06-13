@@ -7,7 +7,7 @@ using Borex;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class ClientCartman
     {
         static void Main(string[] args)
         {
