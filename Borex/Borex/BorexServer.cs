@@ -29,6 +29,7 @@ namespace Borex
         public void Exchange (Account account, Currencies from, Currencies to, double amount)
         {
             if (account[from] < amount) throw new ArgumentException();
+            Console.WriteLine("{0,7:00} transferred from {1,-5} to {2,-5}", amount, from, to);
             account[from] -= amount;
             amount *= Rates.Where(z => z.Currency == from).FirstOrDefault().Cost;
             amount *= 0.95;
