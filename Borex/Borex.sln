@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{0CFA7BFF-B4C3-4520-BBC2-CACEEAA0FB68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientCartman", "ConsoleApplication1\ClientCartman.csproj", "{0CFA7BFF-B4C3-4520-BBC2-CACEEAA0FB68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borex", "Borex\Borex.csproj", "{B6C98E21-D4D6-4CB3-8197-5E3BDEF8EAB3}"
 EndProject
