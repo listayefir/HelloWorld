@@ -25,5 +25,14 @@ namespace Borex
                     yield return rate;
             }
         }
+
+        public void Exchange (Account account, Currencies from, Currencies to, double amount)
+        {
+            account[from] -= amount;
+            amount *= Rates.Where(z => z.Currency == from).FirstOrDefault().Cost;
+            amount *= 0.95;
+            amount /= Rates.Where(z => z.Currency == to).FirstOrDefault().Cost;
+            account[to] += amount;
+        }
     }
 }
