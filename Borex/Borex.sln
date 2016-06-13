@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borex", "Borex\Borex.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientCartman", "ClientCartman\ClientCartman.csproj", "{0CFA7BFF-B4C3-4520-BBC2-CACEEAA0FB68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientButters", "ClientButters\ClientButters.csproj", "{BB8C9358-0279-409F-9D68-1743254CF3CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0CFA7BFF-B4C3-4520-BBC2-CACEEAA0FB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CFA7BFF-B4C3-4520-BBC2-CACEEAA0FB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CFA7BFF-B4C3-4520-BBC2-CACEEAA0FB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8C9358-0279-409F-9D68-1743254CF3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8C9358-0279-409F-9D68-1743254CF3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8C9358-0279-409F-9D68-1743254CF3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8C9358-0279-409F-9D68-1743254CF3CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
